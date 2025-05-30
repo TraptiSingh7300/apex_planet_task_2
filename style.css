@@ -15,7 +15,7 @@ section{
 }
 
 article{
-    width: 500px;
+    max-width: 500px;
     background-color: #62bfb4;
     display: flex;
     flex-direction: column;
