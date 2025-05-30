@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="section-1">
+            <article>
+                <h2>TO DO LIST</h2>
+                <input type="text" id="task-input" name="task" placeholder="ADD NEW TASK">
+                <button onclick="addTask()" class="button">ADD TASK</button>
+                <ul id="task-list"></ul>
+            </article>
+        </section>
+        <section id="section-2">
+            <article>
+                <form class="contact-form" onsubmit="return done()">
+                    <h2>Contact Form</h2>
+                    <input type="text" name="name" id="name" placeholder="Your name">
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <textarea rows="5" onfocus="clearContents(this);">Message</textarea>
+                    <button class="button" type="submit">SUBMIT</button>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
